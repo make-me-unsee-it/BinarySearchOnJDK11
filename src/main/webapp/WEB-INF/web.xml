@@ -15,6 +15,11 @@
     <url-pattern>/searching_page.jsp</url-pattern>
   </filter-mapping>
 
+  <error-page>
+    <error-code>404</error-code>
+    <location>/404.jsp</location>
+  </error-page>
+
   <welcome-file-list>
     <welcome-file>homepage.jsp</welcome-file>
   </welcome-file-list>
